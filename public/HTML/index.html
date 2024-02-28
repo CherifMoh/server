@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Home</h1>
+    <h2>Your path to becoming a Node.js ninja!</h2>
+
+    <form action="/blogs" method="POST">
+        <label for="title">Blog title:</label>
+        <input type="text" id="title" name="title" required>
+        <label for="snippet">Blog snippet:</label>
+        <input type="text" id="snippet" name="snippet" required>
+        <label for="body">Blog body:</label>
+        <textarea id="body" name="body" required></textarea>
+        <button>Submit</button>
+    </form>
+
+    <button class="delete">delete</button>
+
+
+
+    <script type="module" src="../script.js"></script>
+</body>
+</html>
